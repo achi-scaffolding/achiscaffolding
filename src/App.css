@@ -790,12 +790,13 @@ html[dir="rtl"] #sectors main > section:nth-of-type(2) article p * {
 
 #testimonials .slick-slide.slick-current .snip1533 figcaption:before,
 #testimonials .slick-slide.myslick-current .snip1533 figcaption:before {
-  content: url("/assets/quoteactive.svg") !important;
+  content: url("./assets/quoteactive.svg") !important;
 }
 
 #testimonials .slick-slide .snip1533 figcaption:before {
-  content: url("/assets/quoteblue.svg") !important;
+  content: url("./assets/quoteblue.svg") !important;
 }
+
 
 
 #testimonials .slick-slide {
