@@ -788,14 +788,15 @@ html[dir="rtl"] #sectors main > section:nth-of-type(2) article p * {
   color: #FF8E26 !important;
 }
 
-
 #testimonials .slick-slide.slick-current .snip1533 figcaption:before,
 #testimonials .slick-slide.myslick-current .snip1533 figcaption:before {
-  content: url(../public/assets/quoteactive.svg) !important;
+  content: url("/assets/quoteactive.svg") !important;
 }
+
 #testimonials .slick-slide .snip1533 figcaption:before {
-  content: url(../public/assets/quoteblue.svg) !important;
+  content: url("/assets/quoteblue.svg") !important;
 }
+
 
 #testimonials .slick-slide {
   transition: all 0.3s ease-in-out;
