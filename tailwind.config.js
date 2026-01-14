@@ -49,7 +49,8 @@ module.exports = {
         firstSlideBg: "url('/assets/firstBgSlide2_lossyalpha.webp')",
         thirdSlideBg: "url('/assets/thirdSlideBg_lossyalpha.webp')",
         servicePageBanner: "url('/assets/servicesBanner.png')",
-        bgwhychose: "url('./src/assets/124553811_724242481518321_2860198893114815692_n.webp')",
+        bgwhychose: "url('./assets/124553811_724242481518321_2860198893114815692_n.webp')",
+
       },
       display: ["group-hover"],
       boxShadow: {
