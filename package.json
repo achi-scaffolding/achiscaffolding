@@ -32,13 +32,14 @@
     "yup": "^1.0.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "postbuild": "node scripts/copy-404.js",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "webp": "node ./scripts/generateWebp.js"
-  },
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "postbuild": "node scripts/copy-404.js && node scripts/fix-gh-pages-assets.js",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "webp": "node ./scripts/generateWebp.js"
+},
+
   "eslintConfig": {
     "extends": [
       "react-app",
